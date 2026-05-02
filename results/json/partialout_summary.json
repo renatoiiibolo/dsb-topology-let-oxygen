@@ -1,0 +1,69 @@
+{
+  "pipeline_position": "08",
+  "count_feature_removed": "m1_n_dsbs",
+  "conditions": [
+    "Full (107)",
+    "\u2212n_dsbs (106)",
+    "\u2212m1 (74)",
+    "m7 raw (10)",
+    "m7 resid. (10)"
+  ],
+  "m7_mean_ba_raw": 0.469,
+  "m7_mean_ba_residualised": 0.4744,
+  "m7_ba_survival_ratio": 1.0115,
+  "m7_mean_eta2_o2_raw": 0.1402,
+  "m7_mean_eta2_o2_residualised": 0.0086,
+  "m7_eta2_survival_ratio": 0.0615,
+  "interpretation": "m7 signal largely SURVIVES count removal (ratio > 0.7): topological organisation encodes O\u2082 beyond DSB count.",
+  "per_particle_ba": {
+    "electron_mono": {
+      "full": 0.5171,
+      "minus_ndsbs": 0.51,
+      "minus_m1": 0.4871,
+      "m7_raw": 0.6211,
+      "m7_residualised": 0.6151
+    },
+    "proton_psobp": {
+      "full": 0.3634,
+      "minus_ndsbs": 0.3349,
+      "minus_m1": 0.3137,
+      "m7_raw": 0.4926,
+      "m7_residualised": 0.504
+    },
+    "proton_dsobp": {
+      "full": 0.3689,
+      "minus_ndsbs": 0.3289,
+      "minus_m1": 0.3163,
+      "m7_raw": 0.5197,
+      "m7_residualised": 0.5694
+    },
+    "helium_psobp": {
+      "full": 0.3783,
+      "minus_ndsbs": 0.3403,
+      "minus_m1": 0.3346,
+      "m7_raw": 0.5471,
+      "m7_residualised": 0.5171
+    },
+    "helium_dsobp": {
+      "full": 0.2549,
+      "minus_ndsbs": 0.2423,
+      "minus_m1": 0.2254,
+      "m7_raw": 0.3411,
+      "m7_residualised": 0.3637
+    },
+    "carbon_psobp": {
+      "full": 0.3263,
+      "minus_ndsbs": 0.2866,
+      "minus_m1": 0.2717,
+      "m7_raw": 0.4663,
+      "m7_residualised": 0.4409
+    },
+    "carbon_dsobp": {
+      "full": 0.1886,
+      "minus_ndsbs": 0.1689,
+      "minus_m1": 0.1549,
+      "m7_raw": 0.2951,
+      "m7_residualised": 0.3106
+    }
+  }
+}

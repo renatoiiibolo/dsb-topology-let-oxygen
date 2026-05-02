@@ -1,0 +1,101 @@
+{
+  "pipeline_position": "06",
+  "input": "/Users/renatoiiibolo/Documents/Reduced Order Project/Multimodal Topology Analysis (RF + PH)/analysis/feature_matrix.csv",
+  "output_dir": "/Users/renatoiiibolo/Documents/Reduced Order Project/Multimodal Topology Analysis (RF + PH)/analysis/additional",
+  "n_conditions": 49,
+  "n_features": 107,
+  "n_runs": 2450,
+  "stage1_conditions": [
+    "carbon_dsobp",
+    "carbon_psobp",
+    "electron_mono",
+    "helium_dsobp",
+    "helium_psobp",
+    "proton_dsobp",
+    "proton_psobp"
+  ],
+  "stage2_max_off_diag_r": 0.981420631482083,
+  "stage3_skipped": false,
+  "stage3_mean_acc_matrix": [
+    [
+      0.5257142857142858,
+      0.4091428571428572,
+      0.40800000000000003,
+      0.38228571428571434,
+      0.2702857142857143,
+      0.3394285714285714,
+      0.1942857142857143
+    ],
+    [
+      0.03257142857142857,
+      0.03428571428571429,
+      0.09085714285714286,
+      0.06,
+      0.03257142857142857,
+      0.050857142857142865,
+      0.04171428571428572
+    ],
+    [
+      0.002857142857142857,
+      0.0005714285714285715,
+      0.0005714285714285715,
+      0.0051428571428571435,
+      0.0,
+      0.001142857142857143,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.5411428571428571,
+      0.2977142857142857,
+      0.26457142857142857,
+      0.2782857142857143,
+      0.19485714285714287,
+      0.18971428571428575,
+      0.13257142857142856
+    ],
+    [
+      0.04800000000000001,
+      0.04057142857142857,
+      0.036000000000000004,
+      0.026857142857142854,
+      0.03885714285714286,
+      0.03428571428571428,
+      0.024
+    ],
+    [
+      0.6222857142857143,
+      0.4908571428571429,
+      0.5154285714285713,
+      0.5394285714285715,
+      0.3462857142857143,
+      0.46799999999999997,
+      0.30000000000000004
+    ]
+  ],
+  "stage5_top3_o2_features": [
+    "m1_n_dsbs",
+    "m7_h0_persistent_entropy",
+    "m5_dsbs_per_chrom_std"
+  ],
+  "stage5_top3_pk_features": [
+    "m3_energy_n_nonzero",
+    "m3_energy_top25pct_frac",
+    "m3_energy_hot_spots"
+  ],
+  "stage6_pc1_pc2_var_pct": 82.60741671138989,
+  "stage6_n_pcs_90pct_var": 3,
+  "stage8_species_analysed": [
+    "proton",
+    "helium",
+    "carbon"
+  ]
+}

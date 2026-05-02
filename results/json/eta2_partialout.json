@@ -1,0 +1,965 @@
+{
+  "m1_centroid_x_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0006,
+    "eta2_pk_raw": 0.0159,
+    "eta2_o2_resid": 0.0004,
+    "eta2_pk_resid": 0.0158,
+    "delta_o2": -0.0002,
+    "survival_ratio": NaN
+  },
+  "m1_centroid_y_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0001,
+    "eta2_pk_raw": 0.0445,
+    "eta2_o2_resid": 0.0002,
+    "eta2_pk_resid": 0.0441,
+    "delta_o2": 0.0001,
+    "survival_ratio": NaN
+  },
+  "m1_centroid_z_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0002,
+    "eta2_pk_raw": 0.0099,
+    "eta2_o2_resid": 0.0006,
+    "eta2_pk_resid": 0.0101,
+    "delta_o2": 0.0004,
+    "survival_ratio": NaN
+  },
+  "m1_frac_nn_within_0.5um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0058,
+    "eta2_pk_raw": 0.9616,
+    "eta2_o2_resid": 0.007,
+    "eta2_pk_resid": 0.9603,
+    "delta_o2": 0.0012,
+    "survival_ratio": NaN
+  },
+  "m1_frac_nn_within_1.0um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0675,
+    "eta2_pk_raw": 0.5561,
+    "eta2_o2_resid": 0.0069,
+    "eta2_pk_resid": 0.5807,
+    "delta_o2": -0.0605,
+    "survival_ratio": 0.1028
+  },
+  "m1_frac_nn_within_2.0um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0486,
+    "eta2_pk_raw": 0.3015,
+    "eta2_o2_resid": 0.0044,
+    "eta2_pk_resid": 0.3264,
+    "delta_o2": -0.0442,
+    "survival_ratio": 0.0903
+  },
+  "m1_h0_max_lifetime_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0001,
+    "eta2_pk_raw": 0.6033,
+    "eta2_o2_resid": 0.0047,
+    "eta2_pk_resid": 0.5975,
+    "delta_o2": 0.0046,
+    "survival_ratio": NaN
+  },
+  "m1_h0_mean_lifetime_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0234,
+    "eta2_pk_raw": 0.9364,
+    "eta2_o2_resid": 0.0079,
+    "eta2_pk_resid": 0.9522,
+    "delta_o2": -0.0155,
+    "survival_ratio": 0.3394
+  },
+  "m1_h0_n_long_components": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0379,
+    "eta2_pk_raw": 0.8431,
+    "eta2_o2_resid": 0.0062,
+    "eta2_pk_resid": 0.8755,
+    "delta_o2": -0.0317,
+    "survival_ratio": 0.1632
+  },
+  "m1_h0_total_persistence_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0712,
+    "eta2_pk_raw": 0.8492,
+    "eta2_o2_resid": 0.0067,
+    "eta2_pk_resid": 0.915,
+    "delta_o2": -0.0645,
+    "survival_ratio": 0.0942
+  },
+  "m1_h1_max_persistence_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0121,
+    "eta2_pk_raw": 0.8308,
+    "eta2_o2_resid": 0.0059,
+    "eta2_pk_resid": 0.8368,
+    "delta_o2": -0.0063,
+    "survival_ratio": 0.4824
+  },
+  "m1_h1_mean_persistence_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0024,
+    "eta2_pk_raw": 0.9427,
+    "eta2_o2_resid": 0.007,
+    "eta2_pk_resid": 0.9376,
+    "delta_o2": 0.0046,
+    "survival_ratio": NaN
+  },
+  "m1_h1_n_loops": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0206,
+    "eta2_pk_raw": 0.8468,
+    "eta2_o2_resid": 0.0059,
+    "eta2_pk_resid": 0.8622,
+    "delta_o2": -0.0147,
+    "survival_ratio": 0.2851
+  },
+  "m1_h1_total_persistence_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.027,
+    "eta2_pk_raw": 0.8528,
+    "eta2_o2_resid": 0.006,
+    "eta2_pk_resid": 0.8746,
+    "delta_o2": -0.0209,
+    "survival_ratio": 0.224
+  },
+  "m1_n_dsbs": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.9241,
+    "eta2_pk_raw": 0.0242,
+    "eta2_o2_resid": NaN,
+    "eta2_pk_resid": NaN,
+    "delta_o2": NaN,
+    "survival_ratio": NaN
+  },
+  "m1_nn_mean_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0278,
+    "eta2_pk_raw": 0.9178,
+    "eta2_o2_resid": 0.0079,
+    "eta2_pk_resid": 0.937,
+    "delta_o2": -0.0199,
+    "survival_ratio": 0.2825
+  },
+  "m1_nn_median_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0181,
+    "eta2_pk_raw": 0.9454,
+    "eta2_o2_resid": 0.0078,
+    "eta2_pk_resid": 0.9553,
+    "delta_o2": -0.0103,
+    "survival_ratio": 0.4326
+  },
+  "m1_nn_std_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0376,
+    "eta2_pk_raw": 0.7036,
+    "eta2_o2_resid": 0.0002,
+    "eta2_pk_resid": 0.7306,
+    "delta_o2": -0.0373,
+    "survival_ratio": 0.0066
+  },
+  "m1_r_from_center_mean_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.914,
+    "eta2_o2_resid": 0.0065,
+    "eta2_pk_resid": 0.9066,
+    "delta_o2": 0.0065,
+    "survival_ratio": NaN
+  },
+  "m1_r_from_center_skew": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0001,
+    "eta2_pk_raw": 0.8412,
+    "eta2_o2_resid": 0.0059,
+    "eta2_pk_resid": 0.8343,
+    "delta_o2": 0.0058,
+    "survival_ratio": NaN
+  },
+  "m1_r_from_center_std_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0001,
+    "eta2_pk_raw": 0.8686,
+    "eta2_o2_resid": 0.0062,
+    "eta2_pk_resid": 0.8615,
+    "delta_o2": 0.0061,
+    "survival_ratio": NaN
+  },
+  "m1_radius_of_gyration_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0001,
+    "eta2_pk_raw": 0.8874,
+    "eta2_o2_resid": 0.0062,
+    "eta2_pk_resid": 0.8802,
+    "delta_o2": 0.0061,
+    "survival_ratio": NaN
+  },
+  "m1_ripley_K_0.5um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0003,
+    "eta2_pk_raw": 0.9776,
+    "eta2_o2_resid": 0.0084,
+    "eta2_pk_resid": 0.9694,
+    "delta_o2": 0.0081,
+    "survival_ratio": NaN
+  },
+  "m1_ripley_K_1.0um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0001,
+    "eta2_pk_raw": 0.9857,
+    "eta2_o2_resid": 0.0077,
+    "eta2_pk_resid": 0.9781,
+    "delta_o2": 0.0076,
+    "survival_ratio": NaN
+  },
+  "m1_ripley_K_1.5um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9863,
+    "eta2_o2_resid": 0.0071,
+    "eta2_pk_resid": 0.9788,
+    "delta_o2": 0.0071,
+    "survival_ratio": NaN
+  },
+  "m1_ripley_K_2.0um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9844,
+    "eta2_o2_resid": 0.0069,
+    "eta2_pk_resid": 0.9771,
+    "delta_o2": 0.0068,
+    "survival_ratio": NaN
+  },
+  "m1_ripley_L_0.5um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0001,
+    "eta2_pk_raw": 0.9946,
+    "eta2_o2_resid": 0.0077,
+    "eta2_pk_resid": 0.9868,
+    "delta_o2": 0.0076,
+    "survival_ratio": NaN
+  },
+  "m1_ripley_L_1.0um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.996,
+    "eta2_o2_resid": 0.0074,
+    "eta2_pk_resid": 0.9884,
+    "delta_o2": 0.0074,
+    "survival_ratio": NaN
+  },
+  "m1_ripley_L_1.5um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9952,
+    "eta2_o2_resid": 0.0071,
+    "eta2_pk_resid": 0.9877,
+    "delta_o2": 0.0071,
+    "survival_ratio": NaN
+  },
+  "m1_ripley_L_2.0um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9934,
+    "eta2_o2_resid": 0.0069,
+    "eta2_pk_resid": 0.986,
+    "delta_o2": 0.0069,
+    "survival_ratio": NaN
+  },
+  "m1_std_x_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0003,
+    "eta2_pk_raw": 0.9887,
+    "eta2_o2_resid": 0.0066,
+    "eta2_pk_resid": 0.9822,
+    "delta_o2": 0.0063,
+    "survival_ratio": NaN
+  },
+  "m1_std_y_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0002,
+    "eta2_pk_raw": 0.9888,
+    "eta2_o2_resid": 0.0064,
+    "eta2_pk_resid": 0.9823,
+    "delta_o2": 0.0061,
+    "survival_ratio": NaN
+  },
+  "m1_std_z_um": {
+    "modality": "Spatial Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.801,
+    "eta2_o2_resid": 0.0053,
+    "eta2_pk_resid": 0.7942,
+    "delta_o2": 0.0053,
+    "survival_ratio": NaN
+  },
+  "m2_axial_radial_ratio": {
+    "modality": "Radial Track Structure",
+    "eta2_o2_raw": 0.0051,
+    "eta2_pk_raw": 0.8048,
+    "eta2_o2_resid": 0.0004,
+    "eta2_pk_resid": 0.8092,
+    "delta_o2": -0.0047,
+    "survival_ratio": NaN
+  },
+  "m2_complexity_r_spearman": {
+    "modality": "Radial Track Structure",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.067,
+    "eta2_o2_resid": 0.001,
+    "eta2_pk_resid": 0.0653,
+    "delta_o2": 0.001,
+    "survival_ratio": NaN
+  },
+  "m2_frac_r_lt_0.5um": {
+    "modality": "Radial Track Structure",
+    "eta2_o2_raw": 0.0001,
+    "eta2_pk_raw": 0.9974,
+    "eta2_o2_resid": 0.0074,
+    "eta2_pk_resid": 0.9898,
+    "delta_o2": 0.0073,
+    "survival_ratio": NaN
+  },
+  "m2_frac_r_lt_1.0um": {
+    "modality": "Radial Track Structure",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9982,
+    "eta2_o2_resid": 0.007,
+    "eta2_pk_resid": 0.9909,
+    "delta_o2": 0.007,
+    "survival_ratio": NaN
+  },
+  "m2_frac_r_lt_1.5um": {
+    "modality": "Radial Track Structure",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.998,
+    "eta2_o2_resid": 0.0069,
+    "eta2_pk_resid": 0.9908,
+    "delta_o2": 0.0068,
+    "survival_ratio": NaN
+  },
+  "m2_frac_r_lt_2.0um": {
+    "modality": "Radial Track Structure",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9967,
+    "eta2_o2_resid": 0.0068,
+    "eta2_pk_resid": 0.9895,
+    "delta_o2": 0.0068,
+    "survival_ratio": NaN
+  },
+  "m2_r_entropy": {
+    "modality": "Radial Track Structure",
+    "eta2_o2_raw": 0.0002,
+    "eta2_pk_raw": 0.9474,
+    "eta2_o2_resid": 0.0113,
+    "eta2_pk_resid": 0.9368,
+    "delta_o2": 0.0111,
+    "survival_ratio": NaN
+  },
+  "m2_r_kurtosis": {
+    "modality": "Radial Track Structure",
+    "eta2_o2_raw": 0.0003,
+    "eta2_pk_raw": 0.4244,
+    "eta2_o2_resid": 0.0119,
+    "eta2_pk_resid": 0.4128,
+    "delta_o2": 0.0115,
+    "survival_ratio": NaN
+  },
+  "m2_r_mean_um": {
+    "modality": "Radial Track Structure",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9981,
+    "eta2_o2_resid": 0.0071,
+    "eta2_pk_resid": 0.9907,
+    "delta_o2": 0.0071,
+    "survival_ratio": NaN
+  },
+  "m2_r_skew": {
+    "modality": "Radial Track Structure",
+    "eta2_o2_raw": 0.0003,
+    "eta2_pk_raw": 0.7934,
+    "eta2_o2_resid": 0.0139,
+    "eta2_pk_resid": 0.7809,
+    "delta_o2": 0.0136,
+    "survival_ratio": NaN
+  },
+  "m2_r_std_um": {
+    "modality": "Radial Track Structure",
+    "eta2_o2_raw": 0.0019,
+    "eta2_pk_raw": 0.9407,
+    "eta2_o2_resid": 0.0045,
+    "eta2_pk_resid": 0.9382,
+    "delta_o2": 0.0025,
+    "survival_ratio": NaN
+  },
+  "m2_ripley_K2D_0.5um": {
+    "modality": "Radial Track Structure",
+    "eta2_o2_raw": 0.0002,
+    "eta2_pk_raw": 0.9909,
+    "eta2_o2_resid": 0.0078,
+    "eta2_pk_resid": 0.9832,
+    "delta_o2": 0.0076,
+    "survival_ratio": NaN
+  },
+  "m2_ripley_K2D_1.0um": {
+    "modality": "Radial Track Structure",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9957,
+    "eta2_o2_resid": 0.0072,
+    "eta2_pk_resid": 0.9884,
+    "delta_o2": 0.0072,
+    "survival_ratio": NaN
+  },
+  "m2_z_std_um": {
+    "modality": "Radial Track Structure",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.801,
+    "eta2_o2_resid": 0.0053,
+    "eta2_pk_resid": 0.7942,
+    "delta_o2": 0.0053,
+    "survival_ratio": NaN
+  },
+  "m3_dsb_energy_enrichment": {
+    "modality": "Local Energy Heterogeneity",
+    "eta2_o2_raw": 0.0001,
+    "eta2_pk_raw": 0.982,
+    "eta2_o2_resid": 0.0103,
+    "eta2_pk_resid": 0.9713,
+    "delta_o2": 0.0102,
+    "survival_ratio": NaN
+  },
+  "m3_dsb_voxel_energy_mean_MeV": {
+    "modality": "Local Energy Heterogeneity",
+    "eta2_o2_raw": 0.0001,
+    "eta2_pk_raw": 0.9892,
+    "eta2_o2_resid": 0.0011,
+    "eta2_pk_resid": 0.9883,
+    "delta_o2": 0.001,
+    "survival_ratio": NaN
+  },
+  "m3_dsb_voxel_energy_std_MeV": {
+    "modality": "Local Energy Heterogeneity",
+    "eta2_o2_raw": 0.0018,
+    "eta2_pk_raw": 0.8882,
+    "eta2_o2_resid": 0.0011,
+    "eta2_pk_resid": 0.8874,
+    "delta_o2": -0.0007,
+    "survival_ratio": NaN
+  },
+  "m3_energy_cv": {
+    "modality": "Local Energy Heterogeneity",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9934,
+    "eta2_o2_resid": 0.0099,
+    "eta2_pk_resid": 0.983,
+    "delta_o2": 0.0099,
+    "survival_ratio": NaN
+  },
+  "m3_energy_entropy": {
+    "modality": "Local Energy Heterogeneity",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9965,
+    "eta2_o2_resid": 0.0088,
+    "eta2_pk_resid": 0.9873,
+    "delta_o2": 0.0088,
+    "survival_ratio": NaN
+  },
+  "m3_energy_gini": {
+    "modality": "Local Energy Heterogeneity",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9993,
+    "eta2_o2_resid": 0.0087,
+    "eta2_pk_resid": 0.9902,
+    "delta_o2": 0.0087,
+    "survival_ratio": NaN
+  },
+  "m3_energy_hot_spots": {
+    "modality": "Local Energy Heterogeneity",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9998,
+    "eta2_o2_resid": 0.0069,
+    "eta2_pk_resid": 0.9924,
+    "delta_o2": 0.0069,
+    "survival_ratio": NaN
+  },
+  "m3_energy_mean_MeV": {
+    "modality": "Local Energy Heterogeneity",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9953,
+    "eta2_o2_resid": 0.0007,
+    "eta2_pk_resid": 0.9944,
+    "delta_o2": 0.0007,
+    "survival_ratio": NaN
+  },
+  "m3_energy_n_nonzero": {
+    "modality": "Local Energy Heterogeneity",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9999,
+    "eta2_o2_resid": 0.0063,
+    "eta2_pk_resid": 0.9932,
+    "delta_o2": 0.0063,
+    "survival_ratio": NaN
+  },
+  "m3_energy_std_MeV": {
+    "modality": "Local Energy Heterogeneity",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9955,
+    "eta2_o2_resid": 0.0001,
+    "eta2_pk_resid": 0.9954,
+    "delta_o2": 0.0001,
+    "survival_ratio": NaN
+  },
+  "m3_energy_top10pct_frac": {
+    "modality": "Local Energy Heterogeneity",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9948,
+    "eta2_o2_resid": 0.0087,
+    "eta2_pk_resid": 0.986,
+    "delta_o2": 0.0087,
+    "survival_ratio": NaN
+  },
+  "m3_energy_top25pct_frac": {
+    "modality": "Local Energy Heterogeneity",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9999,
+    "eta2_o2_resid": 0.0067,
+    "eta2_pk_resid": 0.9928,
+    "delta_o2": 0.0067,
+    "survival_ratio": NaN
+  },
+  "m3_energy_top5pct_frac": {
+    "modality": "Local Energy Heterogeneity",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9972,
+    "eta2_o2_resid": 0.0074,
+    "eta2_pk_resid": 0.9895,
+    "delta_o2": 0.0074,
+    "survival_ratio": NaN
+  },
+  "m4_D10_Gy": {
+    "modality": "Dose Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9961,
+    "eta2_o2_resid": 0.0005,
+    "eta2_pk_resid": 0.9954,
+    "delta_o2": 0.0005,
+    "survival_ratio": NaN
+  },
+  "m4_D50_Gy": {
+    "modality": "Dose Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9904,
+    "eta2_o2_resid": 0.0067,
+    "eta2_pk_resid": 0.9835,
+    "delta_o2": 0.0067,
+    "survival_ratio": NaN
+  },
+  "m4_D90_Gy": {
+    "modality": "Dose Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9626,
+    "eta2_o2_resid": 0.0031,
+    "eta2_pk_resid": 0.9591,
+    "delta_o2": 0.0031,
+    "survival_ratio": NaN
+  },
+  "m4_dose_cv": {
+    "modality": "Dose Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9934,
+    "eta2_o2_resid": 0.0099,
+    "eta2_pk_resid": 0.983,
+    "delta_o2": 0.0099,
+    "survival_ratio": NaN
+  },
+  "m4_dose_entropy": {
+    "modality": "Dose Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9964,
+    "eta2_o2_resid": 0.0088,
+    "eta2_pk_resid": 0.9873,
+    "delta_o2": 0.0088,
+    "survival_ratio": NaN
+  },
+  "m4_dose_mean_Gy": {
+    "modality": "Dose Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9952,
+    "eta2_o2_resid": 0.0007,
+    "eta2_pk_resid": 0.9944,
+    "delta_o2": 0.0007,
+    "survival_ratio": NaN
+  },
+  "m4_dose_std_Gy": {
+    "modality": "Dose Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9955,
+    "eta2_o2_resid": 0.0001,
+    "eta2_pk_resid": 0.9954,
+    "delta_o2": 0.0001,
+    "survival_ratio": NaN
+  },
+  "m4_frac_above_mean": {
+    "modality": "Dose Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.999,
+    "eta2_o2_resid": 0.0089,
+    "eta2_pk_resid": 0.9898,
+    "delta_o2": 0.0089,
+    "survival_ratio": NaN
+  },
+  "m4_frac_above_mean_1sd": {
+    "modality": "Dose Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9941,
+    "eta2_o2_resid": 0.0062,
+    "eta2_pk_resid": 0.988,
+    "delta_o2": 0.0062,
+    "survival_ratio": NaN
+  },
+  "m4_frac_above_mean_2sd": {
+    "modality": "Dose Distribution",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.9624,
+    "eta2_o2_resid": 0.0017,
+    "eta2_pk_resid": 0.9602,
+    "delta_o2": 0.0017,
+    "survival_ratio": NaN
+  },
+  "m5_dsbs_per_chrom_std": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.4177,
+    "eta2_pk_raw": 0.3209,
+    "eta2_o2_resid": 0.0019,
+    "eta2_pk_resid": 0.49,
+    "delta_o2": -0.4158,
+    "survival_ratio": 0.0046
+  },
+  "m5_dsbs_per_occupied_chrom_mean": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.2452,
+    "eta2_pk_raw": 0.4214,
+    "eta2_o2_resid": 0.0011,
+    "eta2_pk_resid": 0.5292,
+    "delta_o2": -0.2441,
+    "survival_ratio": 0.0045
+  },
+  "m5_frac_intra_chrom_pairs": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.4171,
+    "eta2_o2_resid": 0.0016,
+    "eta2_pk_resid": 0.4132,
+    "delta_o2": 0.0016,
+    "survival_ratio": NaN
+  },
+  "m5_frac_intra_lt_1.0Mbp": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.0003,
+    "eta2_pk_raw": 0.5261,
+    "eta2_o2_resid": 0.0073,
+    "eta2_pk_resid": 0.5186,
+    "delta_o2": 0.007,
+    "survival_ratio": NaN
+  },
+  "m5_frac_intra_lt_10.0Mbp": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.0003,
+    "eta2_pk_raw": 0.6256,
+    "eta2_o2_resid": 0.0049,
+    "eta2_pk_resid": 0.6195,
+    "delta_o2": 0.0046,
+    "survival_ratio": NaN
+  },
+  "m5_frac_intra_lt_5.0Mbp": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.0002,
+    "eta2_pk_raw": 0.5572,
+    "eta2_o2_resid": 0.0062,
+    "eta2_pk_resid": 0.5503,
+    "delta_o2": 0.006,
+    "survival_ratio": NaN
+  },
+  "m5_gini_per_chrom": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.0019,
+    "eta2_pk_raw": 0.9138,
+    "eta2_o2_resid": 0.0055,
+    "eta2_pk_resid": 0.9095,
+    "delta_o2": 0.0036,
+    "survival_ratio": NaN
+  },
+  "m5_intra_dist_mean_Mbp": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.0001,
+    "eta2_pk_raw": 0.5525,
+    "eta2_o2_resid": 0.0028,
+    "eta2_pk_resid": 0.5474,
+    "delta_o2": 0.0027,
+    "survival_ratio": NaN
+  },
+  "m5_intra_dist_std_Mbp": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.0002,
+    "eta2_pk_raw": 0.264,
+    "eta2_o2_resid": 0.0008,
+    "eta2_pk_resid": 0.2627,
+    "delta_o2": 0.0006,
+    "survival_ratio": NaN
+  },
+  "m5_max_dsbs_per_chrom": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.3442,
+    "eta2_pk_raw": 0.2758,
+    "eta2_o2_resid": 0.0018,
+    "eta2_pk_resid": 0.3654,
+    "delta_o2": -0.3423,
+    "survival_ratio": 0.0054
+  },
+  "m5_n_chroms_with_ge1_dsb": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.0331,
+    "eta2_pk_raw": 0.8545,
+    "eta2_o2_resid": 0.0054,
+    "eta2_pk_resid": 0.8834,
+    "delta_o2": -0.0277,
+    "survival_ratio": 0.1638
+  },
+  "m5_n_chroms_with_ge2_dsbs": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.032,
+    "eta2_pk_raw": 0.833,
+    "eta2_o2_resid": 0.0058,
+    "eta2_pk_resid": 0.8609,
+    "delta_o2": -0.0262,
+    "survival_ratio": 0.1816
+  },
+  "m5_ph1d_gini_gaps": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.0244,
+    "eta2_pk_raw": 0.9452,
+    "eta2_o2_resid": 0.0091,
+    "eta2_pk_resid": 0.9618,
+    "delta_o2": -0.0154,
+    "survival_ratio": 0.3714
+  },
+  "m5_ph1d_max_gap_Mbp": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.0153,
+    "eta2_pk_raw": 0.3072,
+    "eta2_o2_resid": 0.0031,
+    "eta2_pk_resid": 0.3163,
+    "delta_o2": -0.0123,
+    "survival_ratio": 0.1999
+  },
+  "m5_ph1d_mean_gap_Mbp": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.0388,
+    "eta2_pk_raw": 0.8506,
+    "eta2_o2_resid": 0.0076,
+    "eta2_pk_resid": 0.8751,
+    "delta_o2": -0.0313,
+    "survival_ratio": 0.1946
+  },
+  "m5_ph1d_n_chroms_analysed": {
+    "modality": "Genomic Location",
+    "eta2_o2_raw": 0.032,
+    "eta2_pk_raw": 0.833,
+    "eta2_o2_resid": 0.0058,
+    "eta2_pk_resid": 0.8609,
+    "delta_o2": -0.0262,
+    "survival_ratio": 0.1816
+  },
+  "m6_complexity_r_spearman": {
+    "modality": "Damage Complexity",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.067,
+    "eta2_o2_resid": 0.001,
+    "eta2_pk_resid": 0.0653,
+    "delta_o2": 0.001,
+    "survival_ratio": NaN
+  },
+  "m6_complexity_score_mean": {
+    "modality": "Damage Complexity",
+    "eta2_o2_raw": 0.0002,
+    "eta2_pk_raw": 0.6501,
+    "eta2_o2_resid": 0.0139,
+    "eta2_pk_resid": 0.6358,
+    "delta_o2": 0.0137,
+    "survival_ratio": NaN
+  },
+  "m6_complexity_score_var": {
+    "modality": "Damage Complexity",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.435,
+    "eta2_o2_resid": 0.01,
+    "eta2_pk_resid": 0.4229,
+    "delta_o2": 0.01,
+    "survival_ratio": NaN
+  },
+  "m6_frac_DSB": {
+    "modality": "Damage Complexity",
+    "eta2_o2_raw": 0.0004,
+    "eta2_pk_raw": 0.6673,
+    "eta2_o2_resid": 0.0141,
+    "eta2_pk_resid": 0.6527,
+    "delta_o2": 0.0137,
+    "survival_ratio": NaN
+  },
+  "m6_frac_DSBplus": {
+    "modality": "Damage Complexity",
+    "eta2_o2_raw": 0.0007,
+    "eta2_pk_raw": 0.5089,
+    "eta2_o2_resid": 0.0102,
+    "eta2_pk_resid": 0.497,
+    "delta_o2": 0.0096,
+    "survival_ratio": NaN
+  },
+  "m6_frac_DSBpp": {
+    "modality": "Damage Complexity",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.3734,
+    "eta2_o2_resid": 0.0081,
+    "eta2_pk_resid": 0.3637,
+    "delta_o2": 0.008,
+    "survival_ratio": NaN
+  },
+  "m6_frac_has_base_damage": {
+    "modality": "Damage Complexity",
+    "eta2_o2_raw": 0.0,
+    "eta2_pk_raw": 0.6343,
+    "eta2_o2_resid": 0.0124,
+    "eta2_pk_resid": 0.6186,
+    "delta_o2": 0.0124,
+    "survival_ratio": NaN
+  },
+  "m6_n_base_damage_mean": {
+    "modality": "Damage Complexity",
+    "eta2_o2_raw": 0.0002,
+    "eta2_pk_raw": 0.6777,
+    "eta2_o2_resid": 0.0123,
+    "eta2_pk_resid": 0.6617,
+    "delta_o2": 0.012,
+    "survival_ratio": NaN
+  },
+  "m6_n_base_damage_std": {
+    "modality": "Damage Complexity",
+    "eta2_o2_raw": 0.0042,
+    "eta2_pk_raw": 0.4635,
+    "eta2_o2_resid": 0.0078,
+    "eta2_pk_resid": 0.4484,
+    "delta_o2": 0.0036,
+    "survival_ratio": NaN
+  },
+  "m6_n_extra_backbone_mean": {
+    "modality": "Damage Complexity",
+    "eta2_o2_raw": 0.0006,
+    "eta2_pk_raw": 0.5723,
+    "eta2_o2_resid": 0.0121,
+    "eta2_pk_resid": 0.5594,
+    "delta_o2": 0.0115,
+    "survival_ratio": NaN
+  },
+  "m6_n_extra_backbone_std": {
+    "modality": "Damage Complexity",
+    "eta2_o2_raw": 0.0002,
+    "eta2_pk_raw": 0.4125,
+    "eta2_o2_resid": 0.0094,
+    "eta2_pk_resid": 0.4002,
+    "delta_o2": 0.0092,
+    "survival_ratio": NaN
+  },
+  "m7_h0_betti0_mean": {
+    "modality": "Topological Summaries",
+    "eta2_o2_raw": 0.0946,
+    "eta2_pk_raw": 0.826,
+    "eta2_o2_resid": 0.0067,
+    "eta2_pk_resid": 0.9152,
+    "delta_o2": -0.0879,
+    "survival_ratio": 0.0708
+  },
+  "m7_h0_betti0_var": {
+    "modality": "Topological Summaries",
+    "eta2_o2_raw": 0.195,
+    "eta2_pk_raw": 0.5529,
+    "eta2_o2_resid": 0.0058,
+    "eta2_pk_resid": 0.7157,
+    "delta_o2": -0.1892,
+    "survival_ratio": 0.0299
+  },
+  "m7_h0_landscape_integral": {
+    "modality": "Topological Summaries",
+    "eta2_o2_raw": 0.0001,
+    "eta2_pk_raw": 0.5181,
+    "eta2_o2_resid": 0.005,
+    "eta2_pk_resid": 0.5119,
+    "delta_o2": 0.0049,
+    "survival_ratio": NaN
+  },
+  "m7_h0_landscape_peak_t": {
+    "modality": "Topological Summaries",
+    "eta2_o2_raw": 0.0001,
+    "eta2_pk_raw": 0.6037,
+    "eta2_o2_resid": 0.0047,
+    "eta2_pk_resid": 0.598,
+    "delta_o2": 0.0046,
+    "survival_ratio": NaN
+  },
+  "m7_h0_persistent_entropy": {
+    "modality": "Topological Summaries",
+    "eta2_o2_raw": 0.6175,
+    "eta2_pk_raw": 0.2807,
+    "eta2_o2_resid": 0.0269,
+    "eta2_pk_resid": 0.8228,
+    "delta_o2": -0.5906,
+    "survival_ratio": 0.0436
+  },
+  "m7_h1_betti1_mean": {
+    "modality": "Topological Summaries",
+    "eta2_o2_raw": 0.0269,
+    "eta2_pk_raw": 0.852,
+    "eta2_o2_resid": 0.0061,
+    "eta2_pk_resid": 0.8737,
+    "delta_o2": -0.0208,
+    "survival_ratio": 0.2252
+  },
+  "m7_h1_betti1_var": {
+    "modality": "Topological Summaries",
+    "eta2_o2_raw": 0.0525,
+    "eta2_pk_raw": 0.5936,
+    "eta2_o2_resid": 0.0043,
+    "eta2_pk_resid": 0.6363,
+    "delta_o2": -0.0481,
+    "survival_ratio": 0.0829
+  },
+  "m7_h1_landscape_integral": {
+    "modality": "Topological Summaries",
+    "eta2_o2_raw": 0.0002,
+    "eta2_pk_raw": 0.9109,
+    "eta2_o2_resid": 0.0066,
+    "eta2_pk_resid": 0.904,
+    "delta_o2": 0.0064,
+    "survival_ratio": NaN
+  },
+  "m7_h1_landscape_peak_t": {
+    "modality": "Topological Summaries",
+    "eta2_o2_raw": 0.0622,
+    "eta2_pk_raw": 0.2912,
+    "eta2_o2_resid": 0.001,
+    "eta2_pk_resid": 0.3112,
+    "delta_o2": -0.0612,
+    "survival_ratio": 0.0168
+  },
+  "m7_h1_persistent_entropy": {
+    "modality": "Topological Summaries",
+    "eta2_o2_raw": 0.3532,
+    "eta2_pk_raw": 0.4719,
+    "eta2_o2_resid": 0.0191,
+    "eta2_pk_resid": 0.7629,
+    "delta_o2": -0.3341,
+    "survival_ratio": 0.0541
+  }
+}

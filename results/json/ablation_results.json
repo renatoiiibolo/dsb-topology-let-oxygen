@@ -1,0 +1,74 @@
+{
+  "t1_electron_mono": {
+    "Spatial Distribution": 0.029999999999999805,
+    "Radial Track Structure": -0.010000000000000009,
+    "Local Energy Heterogeneity": -0.012285714285714344,
+    "Dose Distribution": -0.00828571428571434,
+    "Genomic Location": 0.015142857142857125,
+    "Damage Complexity": -0.006285714285714339,
+    "Topological Summaries": 0.04599999999999993
+  },
+  "t1_proton_psobp": {
+    "Spatial Distribution": 0.049714285714285655,
+    "Radial Track Structure": -0.0022857142857143353,
+    "Local Energy Heterogeneity": -0.0017142857142856127,
+    "Dose Distribution": 0.0020000000000000018,
+    "Genomic Location": -0.006285714285714339,
+    "Damage Complexity": -0.007714285714285729,
+    "Topological Summaries": 0.05685714285714283
+  },
+  "t1_proton_dsobp": {
+    "Spatial Distribution": 0.05257142857142855,
+    "Radial Track Structure": -0.0017142857142856127,
+    "Local Energy Heterogeneity": -0.011714285714285622,
+    "Dose Distribution": 0.0,
+    "Genomic Location": -0.0071428571428571175,
+    "Damage Complexity": -0.010571428571428565,
+    "Topological Summaries": 0.06714285714285712
+  },
+  "t1_helium_psobp": {
+    "Spatial Distribution": 0.043714285714285595,
+    "Radial Track Structure": -0.006857142857142895,
+    "Local Energy Heterogeneity": -0.005714285714285672,
+    "Dose Distribution": -0.006571428571428561,
+    "Genomic Location": -0.011142857142857121,
+    "Damage Complexity": -0.005714285714285783,
+    "Topological Summaries": 0.07714285714285701
+  },
+  "t1_helium_dsobp": {
+    "Spatial Distribution": 0.029428571428571415,
+    "Radial Track Structure": -0.004285714285714337,
+    "Local Energy Heterogeneity": -0.005428571428571449,
+    "Dose Distribution": -0.006000000000000061,
+    "Genomic Location": 0.007428571428571423,
+    "Damage Complexity": -0.006000000000000005,
+    "Topological Summaries": 0.03685714285714284
+  },
+  "t1_carbon_psobp": {
+    "Spatial Distribution": 0.054571428571428604,
+    "Radial Track Structure": -0.00599999999999995,
+    "Local Energy Heterogeneity": -0.011142857142857066,
+    "Dose Distribution": -0.005428571428571338,
+    "Genomic Location": -0.01428571428571429,
+    "Damage Complexity": -0.010857142857142732,
+    "Topological Summaries": 0.08657142857142863
+  },
+  "t1_carbon_dsobp": {
+    "Spatial Distribution": 0.0337142857142857,
+    "Radial Track Structure": 0.0002857142857143058,
+    "Local Energy Heterogeneity": -0.010857142857142815,
+    "Dose Distribution": -0.001714285714285696,
+    "Genomic Location": -0.003999999999999976,
+    "Damage Complexity": -0.003142857142857086,
+    "Topological Summaries": 0.057714285714285746
+  },
+  "t2_particle": {
+    "Spatial Distribution": 0.0,
+    "Radial Track Structure": 0.0,
+    "Local Energy Heterogeneity": 0.0,
+    "Dose Distribution": 0.0,
+    "Genomic Location": 0.0,
+    "Damage Complexity": 0.0,
+    "Topological Summaries": 0.0
+  }
+}
