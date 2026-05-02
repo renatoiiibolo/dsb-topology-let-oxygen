@@ -1,0 +1,250 @@
+# =========================================================
+# TOPAS-nBio DNA Damage Simulation
+# Reduced-Order Graph Framework for LET–O₂ Effects
+# 
+# Model: HalfCylinder with Bertolet et al. (2022) parameters
+# User: rntfbliii
+# =========================================================
+
+# -------------------------
+# RUN CONFIGURATION (MODIFY PER CONDITION)
+# -------------------------
+s:Run/OutputPrefix = "helium_10.0_21.0_50"
+s:Run/PrimaryParticle = "GenericIon(2,4)"
+d:Run/PrimaryEnergy = 83.693 MeV
+i:Run/NumberOfHistories = 305
+i:Run/NumberOfThreads = 1
+i:Run/Seed = 50
+
+# -------------------------
+# WORLD GEOMETRY
+# -------------------------
+d:Ge/World/HLX = 15.0 um
+d:Ge/World/HLY = 15.0 um
+d:Ge/World/HLZ = 15.0 um
+b:Ge/World/Invisible = "True"
+s:Ge/World/Material = "G4_WATER"
+
+# -------------------------
+# PARALLEL WORLD (for energy/dose scoring)
+# -------------------------
+s:Ge/ParallelWorldBox/Parent = "World"
+s:Ge/ParallelWorldBox/Type = "TsBox"
+b:Ge/ParallelWorldBox/IsParallel = "TRUE"
+d:Ge/ParallelWorldBox/HLX = 9.28055 um
+d:Ge/ParallelWorldBox/HLY = 9.28055 um
+d:Ge/ParallelWorldBox/HLZ = 9.28055 um
+i:Ge/ParallelWorldBox/XBins = 60
+i:Ge/ParallelWorldBox/YBins = 60
+i:Ge/ParallelWorldBox/ZBins = 60
+
+# -------------------------
+# MATERIALS
+# -------------------------
+s:Ma/G4_HistoneMaterial/CloneFromMaterial = "G4_WATER"
+d:Ma/G4_HistoneMaterial/CloneWithDensity = 1.407 g/cm3
+
+s:Ma/G4_BaseMaterial/CloneFromMaterial = "G4_WATER"
+d:Ma/G4_BaseMaterial/CloneWithDensity = 1.0 g/cm3
+
+s:Ma/G4_BackboneMaterial/CloneFromMaterial = "G4_WATER"
+d:Ma/G4_BackboneMaterial/CloneWithDensity = 1.0 g/cm3
+
+s:Ma/G4_WATER_MODIFIED/CloneFromMaterial = "G4_WATER"
+d:Ma/G4_WATER_MODIFIED/CloneWithDensity = 1.0 g/cm3
+
+# -------------------------
+# NUCLEUS CONFIGURATION - HALFCYLINDER MODEL
+# -------------------------
+s:Ge/Nucleus/Type = "TsNucleus"
+s:Ge/Nucleus/Parent = "World"
+d:Ge/Nucleus/NucleusRadius = 4.65 um
+s:Ge/Nucleus/Material = "G4_WATER"
+
+# DNA Model (HalfCylinder - validated by Bertolet et al.)
+s:Ge/Nucleus/DNAModel = "HalfCylinder"
+d:Ge/Nucleus/FiberRadius = 18.5 nm
+d:Ge/Nucleus/FiberLength = 120.0 nm
+d:Ge/Nucleus/fHydrationShellThickness = 0.16 nm
+
+# Hilbert curve chromatin arrangement
+i:Ge/Nucleus/HilbertCurveLayer = 4
+i:Ge/Nucleus/HilbertCurve3DRepeat = 30
+s:Ge/Nucleus/HilbertCurveFileName = "supportFiles/HilbertPoints_iteration1.dat"
+
+# Histone configuration
+s:Ge/Nucleus/Histone/Material = "G4_HistoneMaterial"
+b:Ge/Nucleus/OnlyBuildOneHistone = "False"
+b:Ge/Nucleus/HistoneAsScavenger = "True"
+s:Ge/Nucleus/ChromatinFiber/Material = "G4_WATER"
+b:Ge/Nucleus/ShowChromatinCylinders = "False"
+
+# DNA strand materials
+s:Ge/Nucleus/Backbone1/Material = "G4_BackboneMaterial"
+s:Ge/Nucleus/Backbone2/Material = "G4_BackboneMaterial"
+s:Ge/Nucleus/Base1/Material = "G4_BaseMaterial"
+s:Ge/Nucleus/Base2/Material = "G4_BaseMaterial"
+
+# Hydration shell
+b:Ge/Nucleus/AddHydrationShell = "True"
+s:Ge/Nucleus/HydrationShell1/Material = "G4_WATER_MODIFIED"
+s:Ge/Nucleus/HydrationShell2/Material = "G4_WATER_MODIFIED"
+
+# Voxel configuration
+s:Ge/Nucleus/Voxel/Type = "TsBox"
+s:Ge/Nucleus/Voxel/Material = "G4_WATER"
+b:Ge/Nucleus/ShowDNAVoxels = "False"
+
+# DNA structure options
+b:Ge/Nucleus/AddBases = "True"
+b:Ge/Nucleus/AddBackbones = "True"
+
+# ENABLE ROTATION for independent datasets
+b:Ge/Nucleus/RotateNucleusForEachRun = "True"
+
+s:Ge/Nucleus/AssignToRegionNamed = "NucleusRegion"
+
+# -------------------------
+# PHYSICS
+# -------------------------
+sv:Ph/Default/Modules = 1 "TsEmDNAPhysics"
+i:Ph/Default/Verbosity = 1
+b:Ts/PauseBeforeQuit = "False"    # Set False for batch runs
+
+# -------------------------
+# BEAM SOURCE
+# -------------------------
+s:So/BeamSource/Type = "Beam"
+s:So/BeamSource/Component = "BeamPosition"
+s:So/BeamSource/BeamParticle = Run/PrimaryParticle
+d:So/BeamSource/BeamEnergy = Run/PrimaryEnergy MeV
+u:So/BeamSource/BeamEnergySpread = 0.5
+
+s:So/BeamSource/BeamXYDistribution = "None"
+s:So/BeamSource/BeamEnergySpectrumType = "None"
+
+s:So/BeamSource/BeamPositionDistribution = "Gaussian"
+s:So/BeamSource/BeamPositionCutoffShape = "Ellipse"
+d:So/BeamSource/BeamPositionSpreadX = 0.05 um
+d:So/BeamSource/BeamPositionSpreadY = 0.05 um
+d:So/BeamSource/BeamPositionCutoffX = 0.5 um
+d:So/BeamSource/BeamPositionCutoffY = 0.5 um
+
+s:So/BeamSource/BeamAngularDistribution = "Gaussian"
+d:So/BeamSource/BeamAngularSpreadX = 0.005 deg
+d:So/BeamSource/BeamAngularSpreadY = 0.005 deg
+d:So/BeamSource/BeamAngularCutoffX = 0.5 deg
+d:So/BeamSource/BeamAngularCutoffY = 0.5 deg
+
+i:So/BeamSource/NumberOfHistoriesInRun = Run/NumberOfHistories
+
+s:Ge/BeamPosition/Type = "Group"
+s:Ge/BeamPosition/Parent = "World"
+d:Ge/BeamPosition/TransX = 0 um
+d:Ge/BeamPosition/TransY = 0 um
+d:Ge/BeamPosition/TransZ = -5.0 um
+d:Ge/BeamPosition/RotX = 0 deg
+
+# -------------------------
+# DNA DAMAGE SCORER - HALFCYLINDER VALIDATED PARAMETERS
+# Reference: Bertolet et al. (2022) Radiat Res
+# -------------------------
+s:Sc/DNADamageScorer/Quantity = "DNADamageNucleusStepByStep"
+s:Sc/DNADamageScorer/Component = "Nucleus"
+b:Sc/DNADamageScorer/PropagateToChildren = "true"
+d:Sc/DNADamageScorer/ScoringRadius = 4.65 um
+i:Sc/DNADamageScorer/BasePairPositionAtGeometricHierarchy = 0
+i:Sc/DNADamageScorer/NumberOfHistoriesInRun = Run/NumberOfHistories
+
+# Support files
+s:Sc/DNADamageScorer/GeometryInfo = "supportFiles/Geoinfo.txt"
+s:Sc/DNADamageScorer/FileVoxelCopyNumbersInsideNucleus = "supportFiles/CopyNoTable.txt"
+s:Sc/DNADamageScorer/MapChromosomeVoxelsFile = "supportFiles/signedCHVoxel.txt"
+
+# Output configuration
+s:Sc/DNADamageScorer/OutputType = "ASCII"
+s:Sc/DNADamageScorer/OutputFile = Run/OutputPrefix + "_DNADamage"
+s:Sc/DNADamageScorer/IfOutputFileAlreadyExists = "Increment"
+b:Sc/DNADamageScorer/BreakDownOutputPerDamageOrigin = "true"
+b:Sc/DNADamageScorer/MinimalSDDOutput = "false"
+b:Sc/DNADamageScorer/IncludeDSBDamageSitesOnlyinSDD = "false"
+b:Sc/DNADamageScorer/WriteCSVOutputWithAllDamageSpecification = "true"
+
+# Direct damage:  Linear probability method (5-37. 5 eV)
+b:Sc/DNADamageScorer/UseLinearProbabilityForDirectDamage = "true"
+d:Sc/DNADamageScorer/LowerLimitForLinearProbabilityFunction = 5.0 eV
+d:Sc/DNADamageScorer/UpperLimitForLinearProbabilityFunction = 37.5 eV
+
+# Enable all damage mechanisms
+b:Sc/DNADamageScorer/ScoreDirectDamages = "true"
+b:Sc/DNADamageScorer/ScoreIndirectDamages = "true"
+b:Sc/DNADamageScorer/ScoreQuasiDirectDamages = "true"
+
+# HALFCYLINDER-SPECIFIC PARAMETERS (Bertolet et al. Table 1)
+b:Sc/DNADamageScorer/AlwaysScavengeSpeciesInDNAComponents = "False"
+u:Sc/DNADamageScorer/ProbabilityOfScavengingInBackbone = 0.0585
+u:Sc/DNADamageScorer/ProbabilityOfScavengingInBase = 1.0
+u:Sc/DNADamageScorer/ProbabilityOfIndirectDamageToBackbone = 0.55
+u:Sc/DNADamageScorer/ProbabilityOfIndirectDamageToBase = 1.0
+u:Sc/DNADamageScorer/ProbabilityOfChargeTransferFromHydrationShellToBackbone = 0.3333
+
+# Histone scavenging
+b:Sc/DNADamageScorer/ScavengeInHistones = "true"
+
+# DSB clustering criteria
+i:Sc/DNADamageScorer/MaximumBasePairDistanceToConsiderDSB = 10
+
+# Strand materials (must match geometry)
+sv:Sc/DNADamageScorer/Strand1MaterialNames = 3 "G4_WATER_MODIFIED" "G4_BackboneMaterial" "G4_BaseMaterial"
+sv:Sc/DNADamageScorer/Strand2MaterialNames = 3 "G4_WATER_MODIFIED" "G4_BackboneMaterial" "G4_BaseMaterial"
+
+# Foci imaging (optional - can disable for faster runs)
+b:Sc/DNADamageScorer/ScoreNumberOfFoci = "false"
+
+i:Sc/DNADamageScorer/VerboseLevel = 1
+b:Sc/DNADamageScorer/IncludeTimingInformation = "False"
+s:Sc/DNADamageScorer/OutputFileFormatForSpatialInformation = "Standard"
+
+# -------------------------
+# ENERGY DEPOSIT SCORER
+# -------------------------
+s:Sc/EnergyDeposit/Quantity = "EnergyDeposit"
+s:Sc/EnergyDeposit/Component = "ParallelWorldBox"
+b:Sc/EnergyDeposit/PropagateToChildren = "True"
+s:Sc/EnergyDeposit/OutputFile = Run/OutputPrefix + "_EnergyDeposit"
+s:Sc/EnergyDeposit/OutputType = "csv"
+b:Sc/EnergyDeposit/OutputToConsole           = "FALSE"
+s:Sc/EnergyDeposit/IfOutputFileAlreadyExists = "Increment"
+i:Sc/EnergyDeposit/VerboseLevel = 2
+i:Sc/EnergyDeposit/XBins = 60
+i:Sc/EnergyDeposit/YBins = 60
+i:Sc/EnergyDeposit/ZBins = 60
+
+# -------------------------
+# DOSE SCORER
+# -------------------------
+s:Sc/Dose/Quantity = "DoseToMedium"
+s:Sc/Dose/Component = "ParallelWorldBox"
+b:Sc/Dose/PropagateToChildren = "True"
+s:Sc/Dose/OutputFile = Run/OutputPrefix + "_Dose"
+s:Sc/Dose/OutputType = "csv"
+b:Sc/Dose/OutputToConsole           = "FALSE"
+s:Sc/Dose/IfOutputFileAlreadyExists = "Increment"
+i:Sc/Dose/VerboseLevel = 2
+i:Sc/Dose/XBins = 60
+i:Sc/Dose/YBins = 60
+i:Sc/Dose/ZBins = 60
+
+# -------------------------
+# RUNTIME SETTINGS
+# -------------------------
+i:Ts/NumberOfThreads = Run/NumberOfThreads
+i:Ts/Seed = Run/Seed
+i:Ts/ShowHistoryCountAtInterval = 1000
+b:Ts/UseEfficiencyMode = "True"
+i:Ts/MaxInterruptSeconds = 7200
+i:Ts/UpdateFrequency = 1000
+b:Ts/ShowHistoryProgress = "True"
+b:Ts/ShowCPUTime = "True"
+b:Ts/PrintErrorStack = "True"
+i:Ts/VerboseLevel = 1
