@@ -62,11 +62,11 @@ dsb-topology-let-oxygen/
     │   └── partialout_summary.json
     │
     └── figures/
-        ├── fig1_classification_hierarchy.png/.eps
-        ├── fig2_single_modality_accuracy.png/.eps
-        ├── fig3_effect_size_scatter.png/.eps
-        ├── fig4_wasserstein_separability.png/.eps
-        ├── fig5_partial_out_dual_mechanism.png/.eps
+        ├── fig1_classification_hierarchy.png
+        ├── fig2_single_modality_accuracy.png
+        ├── fig3_effect_size_scatter.png
+        ├── fig4_wasserstein_separability.png
+        ├── fig5_partial_out_dual_mechanism.png
         ├── task1_o2_electron_mono_cm.png
         ├── task1_o2_proton_psobp_cm.png
         ├── task1_o2_proton_dsobp_cm.png
