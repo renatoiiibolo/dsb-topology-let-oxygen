@@ -3,9 +3,8 @@
 **Renato III Fernan Bolo** and **Ramon Jose C. Bagunu**  
 Department of Physical Sciences and Mathematics, University of the Philippines Manila  
 
-> Preprint: *arXiv* [ARXIV-TOPOLOGY-DOI] — submitted to *Radiological Physics and Technology* (Springer)  
 > **Project [2]** of a five-project computational radiation biophysics thesis arc.  
-> This builds on the Voxel-Aware Oxygen model (VOxA, Project [1]) at [ARXIV-VOXA-DOI].
+> This builds on the Voxel-Aware Oxygen model (VOxA, Project [1]) at https://doi.org/10.48550/arXiv.2605.12558.
 
 ---
 
@@ -166,33 +165,6 @@ pip install -r requirements.txt
 ## Data availability
 
 Raw SDD outputs, per-run DSB CSVs, per-run feature JSONs, and `feature_matrix.csv` are not publicly hosted. Requests for data access for bona fide research purposes may be directed to rfbolo@up.edu.ph.
-
----
-
-## Citation
-
-```bibtex
-@article{BoloBagunu2026topology,
-  author  = {Bolo, Renato III Fernan and Bagunu, Ramon Jose C.},
-  title   = {Topological structure of radiation-induced {DNA} damage
-             encodes coupled {LET}--oxygen signatures},
-  journal = {Radiological Physics and Technology},
-  year    = {2026},
-  note    = {[DOI upon acceptance]}
-}
-```
-
-```bibtex
-@article{BoloBagunu2026voxa,
-  author  = {Bolo, Renato III Fernan and Bagunu, Ramon Jose C.},
-  title   = {Voxel-aware oxygen kinetics resolves radiation-induced
-             {DNA} damage retention across {LET}-oxygen conditions
-             in particle therapy},
-  journal = {arXiv},
-  year    = {2026},
-  note    = {[ARXIV-VOXA-DOI]}
-}
-```
 
 ---
 
