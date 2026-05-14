@@ -37,7 +37,8 @@ dsb-topology-let-oxygen/
 │   ├── 07_regenerate_figures.py
 │   ├── 08_partialout_test.py
 │   ├── generate_hypoxic_dataset.py
-│   └── batch_generate_hypoxic.py
+│   ├── batch_generate_hypoxic.py
+│   └── unified_voxel_aware_oxygen_model_updated.py
 │
 ├── simulation/
 │   ├── electron_0.2.txt       # e⁻, 0.2 keV/µm (6 MV photon surrogate)
